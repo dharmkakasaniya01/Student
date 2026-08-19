@@ -6,58 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDENT-HUB</title>
     <style>
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 25px auto;
+            padding: 0 20px;
+        }
+
         .testbtn {
             background-color: #2563EB;
-            color: rgb(255, 255, 255);
-            border:1px ;
+            color: white;
+            border: none;
             border-radius: 7px;
-            padding: 8px;
-            font-size: 9px;
-            font-family: Arial;
+            padding: 9px 12px;
+            min-width: 80px;
+            height: 32px;
+            font-size: 10px;
+            cursor: pointer;
             transition: 0.3s;
-            width: 70px;
-            height: 25px;
         }
 
         .testbtn:hover {
-            background-color: #86b3fc;
-            color: rgb(0, 0, 0);
-            border:1px ;
-            border-radius: 7px;
-            padding: 8px;
-            font-size: 9px;
-            font-family: Arial;
-            width: 75px;
-            height: 30px;
-            margin: 5px;
+            background-color: #1d54ca;
+            color: white;
+            transform: translateY(-2px);
         }
 
-        img{
+        body{
+            background-color:#0F172A ;
+        }
+
+        h1{
+            color:white ;
+            text-align: center;
+        }
+
+       .content {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .content p {
+            color: aliceblue;
+            font-size: 18px;
+            margin: 15px 0 25px;
+        }
+
+        .content img {
             width: 80%;
             max-width: 500px;
             height: 400px;
+            object-fit: cover;
             border-radius: 10px;
+            border: 2px solid #2563EB;
+            margin: 15px auto;
+            display: block;
         }
     </style>
 </head>
-<body style = "background-color:#0F172A">
-    <h1 style = "color: rgb(255, 255, 255); text-align: center;" ><b>Student-HUB</b></h1>
+<body>
+    <h1><b>Student-HUB</b></h1>
     
-    <center>
+    <div class="navbar">
 
     <a href="profile.html"><input type="button" class="testbtn"  value="PROFILE"  /></a>
-    <a href="result.html"><input type="button"  class="testbtn"  value="RESULT" /></a> 
+
+    <a href="result.html"><input type="button"  class="testbtn"  value="RESULT" /></a>
+
     <a href="fees.html"><input type="button" class="testbtn"  value="FEES" /></a>
+
     <a href="attendence.html"><input type="button" class="testbtn"  value="ATTENDENCE" /></a>
+
     <a href="course.html"><input type="button" class="testbtn"  value="COURSE" /></a>
+
     <a href="Timetable.html"><input type="button" class="testbtn"  value="TIME TABLE" /></a>
+
     <a href="settings.html"><input type="button" class="testbtn"  value="SETTINGS" /></a><br></br>
 
+    </div>
 
+
+    <div class="content">
     <br><img src="images.png" alt="image"><h1 style="color: aliceblue;">
     <p style="color: aliceblue;"><b>This is my Student Hub Portal.</b></p><img src="image.png" alt="image"><br><br>
 
-    </center>
+    </div>
 
 </body>
 </html>
