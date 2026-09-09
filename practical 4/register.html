@@ -8,46 +8,28 @@
 </head>
 <body class="auth-page">
 
- <h1>Register</h1>
-
-    <form action="login.html">
-
-        <div class="box">
-
-            <label>Full Name:</label>
-            <input type="text" placeholder="Enter Full Name" required>
-
-            <br><br>
-
-            <label>Username:</label>
-            <input type="text" placeholder="Create Username" required>
-
-            <br><br>
-
-            <label>Email:</label>
-            <input type="email" placeholder="Enter Email" required>
-
-            <br><br>
-
-            <label>Password:</label>
-            <input type="password" placeholder="Create Password" required>
-
-            <br><br>
-
-            <label>Confirm Password:</label>
-            <input type="password" placeholder="Confirm Password" required>
-
-            <br><br>
-
-            <input type="submit" class="registerbtn" value="Register">
-
-            <a href="login.html" class="login">
-                Already have an account? Login
-            </a>
-
-        </div>
-
-    </form>
+ <h1 class="auth-title">Register</h1>
+<form action="login.html" id="registerForm">
+<div class="auth-box">
+<label>Full Name:</label>
+<input placeholder="Enter Full Name" required="" type="text"/>
+<br/><br/>
+<label>Username:</label>
+<input placeholder="Create Username" required="" type="text"/>
+<br/><br/>
+<label>Email:</label>
+<input placeholder="Enter Email" required="" type="email"/>
+<br/><br/>
+<label>Password:</label>
+<input id="password" placeholder="Create Password" required="" type="password"/>
+<br/><br/>
+<label>Confirm Password:</label>
+<input id="confirmPassword" placeholder="Confirm Password" required="" type="password"/>
+<br/><br/>
+<input class="registerbtn" type="submit" value="Register" align="center"/>
+<a class="login" href="login.html"><br/>Already have an account? Login</a>
+</div>
+</form>
 
 
 <script src="script.js"></script>
