@@ -1,119 +1,130 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <title>Login Page</title>
 
-    <style>
+```
+<style>
+    *{
+        box-sizing:border-box;
+    }
 
-        * {
-            box-sizing: border-box;
-        }
+    body{
+        margin:0;
+        background-color:#0F172A;
+        font-family:Arial,Helvetica,sans-serif;
+    }
 
-        body {
-            margin: 0;
-            background-color: #0F172A;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    h1{
+        color:white;
+        text-align:center;
+        margin-top:40px;
+    }
 
-        h1 {
-            color: white;
-            text-align: center;
-            margin-top: 40px;
-        }
+    .box{
+        width:450px;
+        background-color:#1E293B;
+        border:2px solid #2563EB;
+        border-radius:15px;
+        margin:30px auto;
+        padding:25px;
+    }
 
-        .box {
-            width: 450px;
-            background-color: #1E293B;
-            border: 2px solid #2563EB;
-            border-radius: 15px;
-            margin: 30px auto;
-            padding: 25px;
-        }
+    label{
+        display:block;
+        color:aliceblue;
+        font-weight:bold;
+        margin-bottom:8px;
+    }
 
-        label {
-            display: block;
-            color: aliceblue;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
+    input[type="text"],
+    input[type="password"]{
+        width:100%;
+        padding:10px;
+        border:1px solid #475569;
+        border-radius:7px;
+        background-color:#0F172A;
+        color:white;
+        outline:none;
+    }
 
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #475569;
-            border-radius: 7px;
-            background-color: #0F172A;
-            color: white;
-            outline: none;
-        }
+    input[type="text"]:focus,
+    input[type="password"]:focus{
+        border-color:#2563EB;
+    }
 
-        input[type="text"]:focus,
-        input[type="password"]:focus {
-            border-color: #2563EB;
-        }
+    .testbtn{
+        width:100%;
+        background-color:#2563EB;
+        color:white;
+        border:none;
+        border-radius:7px;
+        padding:10px;
+        font-size:14px;
+        cursor:pointer;
+    }
 
-        .testbtn {
-            width: 100%;
-            background-color: #2563EB;
-            color: white;
-            border: none;
-            border-radius: 7px;
-            padding: 10px;
-            font-size: 14px;
-            cursor: pointer;
-        }
+    .testbtn:hover{
+        background-color:#1D4ED8;
+    }
 
-        .testbtn:hover {
-            background-color: #1D4ED8;
-        }
+    .forgot{
+        display:block;
+        color:#2563EB;
+        text-align:center;
+        text-decoration:none;
+    }
 
-        .forgot {
-            display: block;
-            color: #2563EB;
-            text-align: center;
-            text-decoration: none;
-        }
+    .forgot:hover{
+        color:#60A5FA;
+        text-decoration:underline;
+    }
 
-        .forgot:hover {
-            color: #60A5FA;
-            text-decoration: underline;
-        }
+    #response{
+        color:red;
+        text-align:center;
+    }
+</style>
 
-    </style>
+
 </head>
 
 <body>
 
-    <h1>Login</h1>
 
-    <form>
+<h1>Login</h1>
 
-        <div class="box">
+<form id="loginForm">
 
-            <label>Username:</label>
-            <input type="text" placeholder="Enter Username" required>
+    <div class="box">
 
-            <br><br>
+        <label>Username:</label>
+        <input type="text" id="username" placeholder="Enter Username">
 
-            <label>Password:</label>
-            <input type="password" placeholder="Enter Password" required>
+        <br><br>
 
-            <br><br>
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter Password">
 
-            <a href="home.html">
-                <input type="button" class="testbtn" value="Login">
-            </a>
+        <br><br>
 
-            <br><br>
+        <button type="submit" class="testbtn">Login</button>
 
-            <a href="#" class="forgot">Forgot Password?</a>
-            <a href="register.html" class="forgot">Don't have an account? Register</a>
+        <br><br>
 
-        </div>
+        <p id="response"></p>
 
-    </form>
+        <a href="#" class="forgot">Forgot Password?</a>
+        <a href="register.html" class="forgot">Don't have an account? Register</a>
+
+    </div>
+
+</form>
+
+<script src="login.js"></script>
+
 
 </body>
 

@@ -1,0 +1,452 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0F172A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   COMMON NAVIGATION BAR
+========================= */
+
+.portal-header {
+    background-color: #1E293B;
+    border-bottom: 2px solid #2563EB;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.portal-title {
+    color: white;
+    margin: 0 0 12px;
+}
+
+.portal-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.portal-nav a,
+.nav-theme {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 12px;
+    min-width: 80px;
+    font-size: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.portal-nav a:hover,
+.nav-theme:hover {
+    background-color: #1d54ca;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.portal-nav a.active {
+    background-color: #1d4ed8;
+    outline: 2px solid #60a5fa;
+}
+
+/* =========================
+   COMMON BUTTON
+========================= */
+
+.testbtn,
+.reset,
+.registerbtn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 12px;
+    min-width: 80px;
+    height: 32px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testbtn:hover,
+.reset:hover,
+.registerbtn:hover {
+    background-color: #1d54ca;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   HOME PAGE
+========================= */
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content p {
+    color: aliceblue;
+    font-size: 18px;
+    margin: 15px 0 25px;
+}
+
+.content img {
+    width: 80%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #2563EB;
+    margin: 15px auto;
+    display: block;
+}
+
+
+.modal {
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    position: relative;
+    border: 2px solid #2563EB;
+}
+
+.modal-box {
+    text-align: center;
+}
+
+.modal-box h2 {
+    color: #2563EB;
+    margin: 5px;
+}
+
+.modal-box p {
+    color: #333;
+    font-size: 17px;
+    margin: 8px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #2563EB;
+}
+
+/* =========================
+   TABLE PAGES
+========================= */
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+    background-color: #1E293B;
+    border: 2px solid #2563EB;
+    color: white;
+    text-align: center;
+}
+
+th {
+    background-color: #2563EB;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #293548;
+}
+
+.sgpa,
+.result {
+    background-color: #4363a9;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* =========================
+   PROFILE PAGE
+========================= */
+
+.profile-box,
+.box {
+    width: 450px;
+    background-color: #1E293B;
+    border: 2px solid #2563EB;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.profile-box h3 {
+    color: white;
+    text-align: left;
+}
+
+.profile-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #2563EB;
+}
+
+/* =========================
+   SETTINGS PAGE
+========================= */
+
+.settings-box {
+    width: 450px;
+    background-color: #1E293B;
+    border: 2px solid #2563EB;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.settings-box h1,
+.settings-box h2 {
+    color: white;
+    text-align: center;
+}
+
+.settings-box input[type="password"] {
+    padding: 9px;
+    border-radius: 7px;
+    border: 1px solid #475569;
+    background-color: #0F172A;
+    color: white;
+}
+
+/* =========================
+   LIGHT MODE
+========================= */
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light-mode .portal-header {
+    background-color: #b1c9ff;
+    border-bottom-color: #000000;
+}
+
+body.light-mode .portal-title,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4 {
+    color: #000000 !important;
+}
+
+body.light-mode .portal-nav a,
+body.light-mode .nav-theme,
+body.light-mode .testbtn,
+body.light-mode .reset,
+body.light-mode .registerbtn {
+    color: white;
+}
+
+body.light-mode table {
+    background-color: #eaf7ff;
+    color: #000000;
+}
+
+body.light-mode tr:nth-child(even) {
+    background-color: #dff1fb;
+}
+
+body.light-mode .profile-box,
+body.light-mode .settings-box,
+body.light-mode .box {
+    background-color: #fdffff;
+    border-color: #000000;
+}
+
+body.light-mode .profile-box h3,
+body.light-mode .settings-box h1,
+body.light-mode .settings-box h2 {
+    color: #000000;
+}
+
+body.light-mode .settings-box input[type="password"] {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode .content p {
+    color: #000000;
+}
+
+body.light-mode .content img {
+    border-color: #2563EB;
+}
+
+/* =========================
+   LOGIN / REGISTER
+========================= */
+
+.auth-page {
+    background-color: #0F172A;
+    color: white;
+}
+
+.auth-title {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.auth-box {
+    width: 450px;
+    background-color: #1E293B;
+    border: 2px solid #2563EB;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.auth-box label {
+    display: block;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.auth-box input[type="text"],
+.auth-box input[type="password"],
+.auth-box input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #475569;
+    border-radius: 7px;
+    background-color: #0F172A;
+    color: white;
+    outline: none;
+}
+
+.auth-box input:focus {
+    border-color: #2563EB;
+}
+
+.auth-submit {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.auth-link {
+    display: block;
+    color: #2563EB;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.auth-link:hover {
+    color: #60A5FA;
+    text-decoration: underline;
+}
+
+#response {
+    text-align: center;
+}
+
+/*----------------------
+    FAQ SECTION
+------------------------*/
+#faq {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+#faq h2 {
+    text-align: center;
+}
+
+.faq-item {
+    margin: 10px 0;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+    .profile-box,
+    .settings-box,
+    .auth-box {
+        width: 90%;
+    }
+
+    table {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .portal-nav {
+        gap: 5px;
+    }
+
+    .portal-nav a,
+    .nav-theme {
+        min-width: 70px;
+        padding: 8px;
+    }
+}
+
+
+tr.row-focus {
+    outline: 2px solid #60A5FA;
+}
