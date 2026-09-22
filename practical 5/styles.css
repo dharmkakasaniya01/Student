@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-title {
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+}
+
+.auth-box {
+    width: 400px;
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+}
+
+.auth-box label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.auth-box input[type="text"],
+.auth-box input[type="email"],
+.auth-box input[type="tel"],
+.auth-box input[type="password"],
+.auth-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    background-color: #334155;
+    color: white;
+}
+
+.auth-box input:focus,
+.auth-box select:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.auth-box input[type="radio"],
+.auth-box input[type="checkbox"] {
+    width: auto;
+}
+
+.auth-box div label {
+    display: inline;
+    margin-right: 10px;
+}
+
+.registerbtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registerbtn:hover {
+    background-color: #1d4ed8;
+}
+
+.error {
+    display: block;
+    color: #f87171;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#passwordStrength {
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.success {
+    text-align: center;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.login {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: underline;
+}
