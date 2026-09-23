@@ -10,9 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* =========================
-   COMMON NAVIGATION BAR
-========================= */
+/*COMMON NAVIGATION BAR*/
 
 .portal-header {
     background-color: #1E293B;
@@ -60,9 +58,7 @@ body {
     outline: 2px solid #60a5fa;
 }
 
-/* =========================
-   COMMON BUTTON
-========================= */
+/*COMMON BUTTON*/
 
 .testbtn,
 .reset,
@@ -87,9 +83,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* =========================
-   HOME PAGE
-========================= */
+/*HOME PAGE*/
 
 .content {
     text-align: center;
@@ -156,9 +150,7 @@ body {
     color: #2563EB;
 }
 
-/* =========================
-   TABLE PAGES
-========================= */
+/*TABLE PAGES*/
 
 table {
     width: 85%;
@@ -191,9 +183,7 @@ tr:nth-child(even) {
     text-align: left;
 }
 
-/* =========================
-   PROFILE PAGE
-========================= */
+/*PROFILE PAGE*/
 
 .profile-box,
 .box {
@@ -217,9 +207,7 @@ tr:nth-child(even) {
     border: 2px solid #2563EB;
 }
 
-/* =========================
-   SETTINGS PAGE
-========================= */
+/*SETTINGS PAGE*/
 
 .settings-box {
     width: 450px;
@@ -245,9 +233,7 @@ tr:nth-child(even) {
     color: white;
 }
 
-/* =========================
-   LIGHT MODE
-========================= */
+/*LIGHT MODE*/
 
 body.light-mode {
     background-color: #ffffff;
@@ -310,9 +296,7 @@ body.light-mode .content img {
     border-color: #2563EB;
 }
 
-/* =========================
-   LOGIN / REGISTER
-========================= */
+/*LOGIN / REGISTER*/
 
 .auth-page {
     background-color: #0F172A;
@@ -380,9 +364,7 @@ body.light-mode .content img {
     text-align: center;
 }
 
-/*----------------------
-    FAQ SECTION
-------------------------*/
+/*FAQ SECTION*/
 #faq {
     width: 80%;
     max-width: 800px;
@@ -419,9 +401,7 @@ body.light-mode .content img {
     display: block;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/*RESPONSIVE*/
 
 @media (max-width: 600px) {
     .profile-box,
