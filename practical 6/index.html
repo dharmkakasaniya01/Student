@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student HUB - Practical 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student HUB</h1>
+    <p>Practical 6 - JSON and Fetch API</p>
+
+    <div class="container">
+
+        <h2>Student List</h2>
+
+       
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search student..."
+        >
+
+       
+        <select id="departmentFilter">
+            <option value="All">All Departments</option>
+            <option value="CE">CE</option>
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+        </select>
+
+        
+        <select id="sortSelect">
+            <option value="default">Sort By</option>
+            <option value="nameAsc">Name A-Z</option>
+            <option value="nameDesc">Name Z-A</option>
+        </select>
+
+        <p id="status"></p>
+
+        <div id="studentList"></div>
+
+       
+        <div id="pagination"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

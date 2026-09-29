@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body > p {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin: 5px;
+}
+
+.student {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.student h3 {
+    margin-top: 0;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "id": 101,
+        "name": "Dharm Kakasaniya",
+        "email": "dharm@gmail.com",
+        "department": "CE",
+        "semester": 3
+    },
+    {
+        "id": 102,
+        "name": "vasu patel",
+        "email": "vasu@gmail.com",
+        "department": "IT",
+        "semester": 3
+    },
+    {
+        "id": 103,
+        "name": "Jay Shah",
+        "email": "jay@gmail.com",
+        "department": "CE",
+        "semester": 2
+    },
+    {
+        "id": 104,
+        "name": "Mahendra Dhoni",
+        "email": "mahendra@gmail.com",
+        "department": "CSE",
+        "semester": 4
+    },
+    {
+        "id": 105,
+        "name": "Rohit Sharma",
+        "email": "rohit@gmail.com",
+        "department": "IT",
+        "semester": 2
+    },
+    {
+        "id": 106,
+        "name": "Virat Kohli",
+        "email": "virat@gmail.com",
+        "department": "CE",
+        "semester": 3
+    },
+    {
+        "id": 107,
+        "name": "Abhishek sharma",
+        "email": "abhishek@gmail.com",
+        "department": "ME",
+        "semester": 4
+    },
+    {
+        "id": 108,
+        "name": "Heinrich Klassen",
+        "email": "heinrich@gmail.com",
+        "department": "CSE",
+        "semester": 5
+    },
+    {
+        "id": 109,
+        "name": "Harsh Limbachiya",
+        "email": "harsh@gmail.com",
+        "department": "CE",
+        "semester": 4
+    },
+    {
+        "id": 110,
+        "name": "Parthiv Patel",
+        "email": "parthiv@gmail.com",
+        "department": "IT",
+        "semester": 5
+    },
+    {
+        "id": 111,
+        "name": "Karan Aujla",
+        "email": "karan@gmail.com",
+        "department": "CSE",
+        "semester": 3
+    },
+    {
+        "id": 112,
+        "name": "Tarak Mehta",
+        "email": "tarak@gmail.com",
+        "department": "ME",
+        "semester": 2
+    },
+    {
+        "id": 113,
+        "name": "Ravi Gupta",
+        "email": "ravi@gmail.com",
+        "department": "CE",
+        "semester": 5
+    },
+    {
+        "id": 114,
+        "name": "Ajay Devgan",
+        "email": "ajay@gmail.com",
+        "department": "IT",
+        "semester": 4
+    },
+    {
+        "id": 115,
+        "name": "Samay Raina",
+        "email": "samay@gmail.com",
+        "department": "CSE",
+        "semester": 6
+    }
+]
