@@ -63,7 +63,7 @@
 
     <form method="POST" action="process.php">
 
-        <!-- Name -->
+        
         <label>Student Name</label>
 
         <input
@@ -74,18 +74,13 @@
         >
 
 
-        <!-- Email -->
+        
         <label>Email</label>
 
-        <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-        >
+        <input type="email" name="email" placeholder="Enter your email" required>
 
 
-        <!-- Department -->
+        
         <label>Department</label>
 
         <select name="department" required>
@@ -115,7 +110,7 @@
         </select>
 
 
-        <!-- Semester -->
+        
         <label>Semester</label>
 
         <select name="semester" required>
@@ -134,7 +129,7 @@
         </select>
 
 
-        <!-- Submit -->
+        
         <button type="submit">
             Register Student
         </button>
